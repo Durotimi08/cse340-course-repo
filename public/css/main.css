@@ -171,6 +171,16 @@ main li strong {
     color: var(--color-primary);
 }
 
+main li div {
+    flex: 1;
+    min-width: 200px;
+}
+
+main li p {
+    margin: 0.25rem 0 0;
+    color: var(--color-text-muted);
+}
+
 img {
     max-width: 100%;
     height: auto;
